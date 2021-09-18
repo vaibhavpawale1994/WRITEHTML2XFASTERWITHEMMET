@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>writeHtml2XFasterWithEmmet</title>
+</head>
+<body>
+<!-- CHILD: > nav>ul>li -->
+
+<nav>
+    <ul>
+        <li></li>
+    </ul>
+</nav>
+
+<!-- SIBLING: + div+p+sect -->
+
+<div></div>
+<p></p>
+<section></section>
+
+<!-- CLIMB-UP: ^ div>p>span+em^bq -->
+
+ <div>
+    <p><span></span><em></em></p>
+    <blockquote></blockquote>
+</div>
+
+<!-- GROUPING: () div>(header>h1)+footer>p -->
+
+<div>
+    <header>
+        <h1></h1>
+    </header>
+    <footer>
+        <p></p>
+    </footer>
+</div>
+
+<!-- MULTIPLICATION: * ul>li*5 -->
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<!-- ITEM NUMBERING: $ ul>li.item$*5 -->
+
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+</ul>
+
+<!-- ID AND CLASS ATTRIBUTES: #item1  .item1 -->
+
+<!-- ID ATTRIBUTE: #item1 -->
+
+<ul>
+    <li id="item1"></li>
+    <li id="item2"></li>
+    <li id="item3"></li>
+    <li id="item4"></li>
+    <li id="item5"></li>
+</ul>
+
+<!-- CLASS ATTRIBUTE: .item1 -->
+
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+</ul>
+
+<!-- Text: {}  p>{Click}+a{here}+{ to continue} -->
+<p>Click<a href="">here</a> 
+to continue</p>
+</body>
+</html>
